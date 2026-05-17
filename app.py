@@ -18,6 +18,9 @@ def square(a):
 def power(a, b):
     return a ** b
 
+def modulus(a, b):
+    return a % b
+
 if __name__ == "__main__":
     print("Welcome to the Mini Calculator!")
     print("Choose an operation: add, subtract, multiply, divide")
@@ -39,5 +42,8 @@ if __name__ == "__main__":
     elif choice == "power":
         num2 = float(input("Enter second number: "))
         print("Result:", power(num1, num2))
+    elif choice == "modulus":
+        num2 = float(input("Enter second number: "))
+        print("Result:", modulus(num1, num2))
     else:
         print("Invalid choice!")
