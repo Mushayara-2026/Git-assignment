@@ -23,7 +23,7 @@ def modulus(a, b):
 
 if __name__ == "__main__":
     print("Welcome to the Mini Calculator!")
-    print("Choose an operation: add, subtract, multiply, divide, square, modulus")
+    print("Choose an operation: add, subtract, multiply, divide, square, power, modulus")
     choice = input("Enter choice: ").strip().lower()
 
     num1 = float(input("Enter first number: "))
