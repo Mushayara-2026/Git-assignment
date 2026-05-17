@@ -12,6 +12,9 @@ def divide(a, b):
         return "Error: Division by zero!"
     return a / b
 
+def square(a):
+    return a * a
+
 if __name__ == "__main__":
     print("Welcome to the Mini Calculator!")
     print("Choose an operation: add, subtract, multiply, divide")
@@ -28,5 +31,7 @@ if __name__ == "__main__":
         print("Result:", multiply(num1, num2))
     elif choice == "divide":
         print("Result:", divide(num1, num2))
+    elif choice == "square":
+        print("Result:", square(num1))
     else:
         print("Invalid choice!")
